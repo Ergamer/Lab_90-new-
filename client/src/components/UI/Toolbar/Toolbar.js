@@ -14,7 +14,7 @@ const Toolbar = ({user, logout}) => (
     <Navbar.Collapse>
       <Nav>
         <LinkContainer to="/" exact>
-          <NavItem>forum</NavItem>
+          <NavItem>cinema</NavItem>
         </LinkContainer>
       </Nav>
       {user ? <UserMenu user={user} logout={logout}/> : <AnonymousMenu/>}

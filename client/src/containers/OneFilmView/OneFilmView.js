@@ -87,4 +87,5 @@ const mapDispatchToProps = dispatch => {
     }
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(OneFilmView);
+
+export  default connect(mapStateToProps, mapDispatchToProps)(OneFilmView);

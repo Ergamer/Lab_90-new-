@@ -7,9 +7,11 @@ import createHistory from "history/createBrowserHistory";
 
 import {loadState, saveState} from "./localStorage";
 import usersReducer from "./reducers/users";
+import filmsReducer from "./reducers/films";
 
 const rootReducer = combineReducers({
     users: usersReducer,
+    films: filmsReducer,
     routing: routerReducer
 });
 
